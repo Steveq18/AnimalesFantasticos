@@ -40,14 +40,37 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em;
+    height: 30px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin: 0 auto; 
+    left: 0; 
+    right: 0; 
+   
+    padding: 0.em 0;
+    padding-top: 5px;
 }
 
 @media (max-width: 480px) {
     nav ul {
         flex-direction: column;
     }
+}
+
+table {
+    width: 100%; /* Ocupa el ancho del contenedor */
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+
+th, td {
+    padding: 10px 15px; /* Espacio interno en celdas */
+
+    text-align: left; 
+}
+
+th {
+    background-color: #f4f4f4; 
+    font-weight: bold;
 }
