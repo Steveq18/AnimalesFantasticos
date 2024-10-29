@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Uso de @font-face para la fuente Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.woff2') format('woff2');
+}
+
+/* Uso de @font-face para la fuente personalizada */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('MiFuentePersonalizada.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
